@@ -34,6 +34,12 @@
         -webkit-box-shadow: 1px -1px 13px 5px rgba(0, 0, 0, 0.8);
         -moz-box-shadow: 1px -1px 13px 5px rgba(0, 0, 0, 0.8);
       }
+      @media (max-width: 500px) {
+        #八卦 {
+          width: 200px;
+          height: 200px;
+        }
+      }
       .box1 {
         width: 50%;
         position: absolute;
@@ -76,6 +82,11 @@
         top: 75px;
         background-color: white;
       }
+      #八卦 > div:nth-child(5) {
+        margin-left: -12.5px;
+        top: 37.5px;
+        background-color: white;
+      }
       #八卦 > div:nth-child(6) {
         width: 12.5%;
         height: 12.5%;
@@ -85,6 +96,13 @@
         margin-left: -25px;
         bottom: 75px;
         background-color: black;
+      }
+      @media (max-width: 500px) {
+        #八卦 > div:nth-child(6) {
+          margin-left: -12.5px;
+          bottom: 37.5px;
+          background-color: black;
+        }
       }
       .wrap {
         height: 100vh;
